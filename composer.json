@@ -1,0 +1,25 @@
+{
+    "name": "jessegall/cordyceps-php",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^6.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JesseGall\\Cordyceps\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JesseGall\\Cordyceps\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jesse Gall"
+        }
+    ],
+    "require": {}
+}
